@@ -1,5 +1,11 @@
-# Keras-rest-server: A simple rest implementation for loading and serving keras models
+## Keras-rest-server: A simple rest implementation for loading and serving keras models
 ------------------
+## About:
+This repository contains a very simple server implemented in flask which loads a
+a simple neural network model trained using Keras from its saved-weights and
+model.
+
+In this example a very simple case of XOR is considered.
 ## Getting started:
 
 ### Clone this repository

@@ -1,0 +1,44 @@
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# IntelliJ specific
+.idea
+/bin/
+
+*.class
+*.log
+*.out
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+# Eclipse
+.project
+.pydevproject
+.pyc
+bin/
+tmp/
+.target
+.factorypath
+.classpath
+.settings/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.loadpath
+.cache-main
+# IntelliJ specific
+.idea
+/bin/

@@ -12,7 +12,7 @@ In this example a very simple case of XOR is considered.
 ```
 git clone https://github.com/ansrivas/keras-rest-server.git
 cd keras-rest-server
-sudo python install -r requirements.txt
+sudo pip install -r requirements.txt
 ```
 ------------------
 ### Run to generate pickle files:

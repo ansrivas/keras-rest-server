@@ -22,7 +22,7 @@ cd keras-rest-server
 3. Create a new environment ( Change python=2 or python=3) and activate it:
 ```
 conda create --name keras-server -y python=2
-source activate krs2
+source activate keras-server
 ```
 
 4. Install all the dependencies:

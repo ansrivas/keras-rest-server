@@ -1,3 +1,7 @@
+# !/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""A very simple flask server to serve models."""
+
 from models import modelserver
 import settings
 import sys

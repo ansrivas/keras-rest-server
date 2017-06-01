@@ -1,4 +1,8 @@
-from os.path import dirname, join, abspath
+# !/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""Settings module."""
+
+from os.path import dirname,  abspath
 __dir__ = dirname(abspath(__file__))
 
 path_model_json = 'pickles/my_model_architecture.json'

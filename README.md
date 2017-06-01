@@ -30,6 +30,10 @@ source activate krs2
 conda env update -n keras-server  --file requirements.txt
 ```
 
+5. To remove the environment run:
+```
+conda remove -n keras-server --all -y
+```
 
 ### Usage
 ------------------

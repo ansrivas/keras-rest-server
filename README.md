@@ -7,19 +7,38 @@ model.
 
 In this example a very simple case of XOR is considered.
 ## Getting started:
+---
+1. Install Anaconda:
+```
+https://docs.continuum.io/anaconda/install
+```
 
-### Clone this repository
+2. Clone this repository
 ```
 git clone https://github.com/ansrivas/keras-rest-server.git
 cd keras-rest-server
-sudo pip install -r requirements.txt
 ```
+
+3. Create a new environment ( Change python=2 or python=3) and activate it:
+```
+conda create --name keras-server -y python=2
+source activate krs2
+```
+
+4. Install all the dependencies:
+```
+conda env update -n keras-server  --file requirements.txt
+```
+
+
+### Usage
 ------------------
+
 ### Run to generate pickle files:
 ```
 python createpickles.py
 ```
-------------------
+
 ### Run the server (defaults to http://localhost:7171)
 ```
 python server.py

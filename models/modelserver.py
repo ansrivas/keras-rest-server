@@ -5,7 +5,7 @@
 from flask.views import MethodView
 
 from flask import Flask, request, jsonify
-from modelcreator import Predictor
+from .modelcreator import Predictor
 from gevent.pywsgi import WSGIServer
 import numpy as np
 

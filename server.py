@@ -5,7 +5,7 @@
 from models import modelserver
 import settings
 import sys
-sys.path.append(".")
+sys.path.append("./models")
 
 modelserver.initialize_models(json_path=settings.path_model_json,
                               weights_path=settings.path_model_weight,

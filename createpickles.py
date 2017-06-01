@@ -56,7 +56,7 @@ def create_model(X_train, Y_train):
     xin = X_train.shape[1]
 
     model = Sequential()
-    model.add(Dense(output_dim=4, input_shape=(xin, )))
+    model.add(Dense(units=4, input_shape=(xin, )))
     model.add(Activation('tanh'))
     model.add(Dense(4))
     model.add(Activation('linear'))
@@ -67,7 +67,7 @@ def create_model(X_train, Y_train):
     print('compiling now..')
     model.compile(loss='mse', optimizer=rms)
 
-    model.fit(X_train, Y_train, nb_epoch=1000, batch_size=1, verbose=2)
+    model.fit(X_train, Y_train, epochs=1000, batch_size=1, verbose=2)
     score = model.evaluate(X_train, Y_train, batch_size=1)
     print("Evaluation results:", score)
     open('pickles/my_model_architecture.json', 'w').write(model.to_json())
